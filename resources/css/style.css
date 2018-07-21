@@ -48,19 +48,19 @@ nav .nav-space {
 /* header end */
 /* main */
 
-#main {
+#main-one {
   display: flex;
   width: 100%;
   height: 42rem;
   background-color: lightgrey;
 }
 
-#main img {
+#main-one img {
   width: 60%;
   margin: 2rem 1.5rem;
 }
 
-#main .sub-title {
+#main-one .sub-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,4 +90,43 @@ nav .nav-space {
   font-size: 1.8rem;
   text-align: center;
   padding: 0.5rem 0;
+}
+
+#main-two {
+  display: flex;
+  width: 100%;
+  height: 48rem;
+  background-color: white;
+}
+
+.left {
+  width: 60%;
+}
+
+.left .sub-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem 1.5rem 2rem 1.5rem;
+}
+
+.left .sub-title h1 {
+  margin: 2rem 0 1.5rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.left img {
+  width: 100%;
+  margin: 2rem 1.5rem 0 1.5rem;
+}
+
+.left .sub-title p {
+  line-height: 1.3;
+  word-spacing: 0.2rem;
+  font-size: 1.3rem;
+}
+
+.left .sub-title .signature {
+  margin: 2.5rem 2rem 2rem 0;
 }
