@@ -1,0 +1,93 @@
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #4A4A4A;
+}
+
+/* header start */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo .title-first {
+  color: #4A4A4A;
+}
+
+.logo .title-second {
+  color: #A2A2A2;
+}
+
+.logo img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 0 0 1.5rem;
+}
+
+.logo span {
+  font-size: 2rem;
+}
+
+nav {
+  font-size: 1.5rem;
+  margin: 0 1.5rem 0 0;
+}
+
+nav .nav-space {
+  margin: 0 1rem 0 0;
+}
+/* header end */
+/* main */
+
+#main {
+  display: flex;
+  width: 100%;
+  height: 42rem;
+  background-color: lightgrey;
+}
+
+#main img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+#main .sub-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.sub-title .item {
+  margin-top: 2.3rem;
+}
+
+.sub-title h1 {
+  width: 95%;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.sub-title p {
+  width: 95%;
+  font-size: 1.8rem;
+}
+
+.sub-title button {
+  background-color: #4A4A4A;
+  color: white;
+  width: 82%;
+  height: 3.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 0.5rem 0;
+}
