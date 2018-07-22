@@ -4,6 +4,10 @@ html {
   color: #4A4A4A;
 }
 
+.container {
+  max-width: 1050px;
+}
+
 /* header start */
 header {
   display: flex;
@@ -57,7 +61,7 @@ nav .nav-space {
 
 #main-one img {
   width: 60%;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 #main-one .sub-title {
@@ -94,13 +98,13 @@ nav .nav-space {
 
 #main-two {
   display: flex;
-  width: 100%;
-  height: 48rem;
+  justify-content: space-between;
   background-color: white;
 }
 
 .left {
   width: 60%;
+  padding: 2rem 1.5rem 0 1.5rem;
 }
 
 .left .sub-title {
@@ -118,7 +122,6 @@ nav .nav-space {
 
 .left img {
   width: 100%;
-  margin: 2rem 1.5rem 0 1.5rem;
 }
 
 .left .sub-title p {
@@ -130,3 +133,50 @@ nav .nav-space {
 .left .sub-title .signature {
   margin: 2.5rem 2rem 2rem 0;
 }
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  flex-grow: 1;
+}
+
+.right .box {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.right .text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 0 0;
+}
+
+.right img {
+  width: 45%;
+  height: 45%;
+}
+
+/* .right {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  width: 40%;
+}
+
+.right .box {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+}
+
+
+.right .box img {
+  width: 35%;
+}
+
+.right .box .text {
+  width: 65%;
+} */
