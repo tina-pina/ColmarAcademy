@@ -100,7 +100,7 @@ nav .nav-space {
 
 .left {
   width: 60%;
-  padding: 2rem 1.5rem 2rem 1.5rem;
+  padding: 2rem 1.5rem 0rem 1.5rem;
 }
 
 .left .sub-title {
@@ -110,7 +110,7 @@ nav .nav-space {
     margin: 0rem 0rem 2rem 0rem;
 }
 
-.left .sub-title h1 {
+.left .sub-title h2 {
   margin: 2rem 0 1.5rem 0;
   font-size: 2rem;
   font-weight: bold;
@@ -157,10 +157,36 @@ nav .nav-space {
   justify-content: space-around;
 }
 
-.box .text h2 {
+.box .text h3 {
   margin: 0 0 1rem 0;
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 .box .text p {
   margin: 0 0 1rem 0;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.box .text a {
+  color: blue;
+  text-decoration: none;
+}
+
+#main-three .container {
+  background-color: lightgrey;
+}
+
+#main-three .container h4 {
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
