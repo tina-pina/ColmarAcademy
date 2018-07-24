@@ -79,7 +79,11 @@ nav.mobile {
 }
 
 .sub-title .item {
-  margin-top: 2.3rem;
+  margin: 2.3rem auto;
+}
+
+.sub-title .item:hover {
+  color: black;
 }
 
 .sub-title h1 {
@@ -157,16 +161,20 @@ nav.mobile {
   border-bottom: 1px grey solid;
 }
 
-.right .box img.mobile {
-  display:none;
+.box img.mobile {
+  display: none;
 }
 
-.right img {
+.box.grey img.mobile {
+  display: none;
+}
+
+.right .box img.desktop {
   width: 35%;
   margin: 0 0 0 1rem;
 }
 
-.box .text {
+.right .box .text {
   margin: auto 0 auto 2rem;
   display:flex;
   flex-direction: column;
@@ -175,7 +183,6 @@ nav.mobile {
 
 .box .text h3 {
   margin: 0 0 1rem 0;
-  font-size: 1.7rem;
   font-weight: bold;
 }
 
@@ -190,12 +197,20 @@ nav.mobile {
   text-decoration: none;
 }
 
+.box .text a:visited {
+  color: green;
+}
+
 #main-three .container .headline h4 {
   margin: 2rem auto;
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
   padding: 2rem 0 0 0;
+}
+
+#main-three .container .headline h4::first-line {
+  color: #014AC2;
 }
 
 .flex-container {
@@ -248,6 +263,10 @@ nav.mobile {
 
 .flex-container .course #padding {
   padding-bottom: 0.5rem;
+}
+
+.mobile-list {
+  display: none;
 }
 
 #main-four .container {
@@ -399,7 +418,11 @@ footer .nav {
     align-items: center;
   }
 }
-
+@media only screen and (min-width: 481px) {
+  #main-two .right .box img.mobile {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 480px) {
 
@@ -422,7 +445,7 @@ footer .nav {
   }
   /* HEADER END */
 
-  /* MAIN ONE START */
+  /* MAIN TWO START */
   #main-two .left {
     display: none;
   }
@@ -435,9 +458,107 @@ footer .nav {
     align-items: center;
     flex-direction: column;
   }
-  /* MAIN ONE END */
 
-  /* MAIN TWO START */
-  /* MAIN TWO END */
+  .right .box.grey {
+      background-color: white;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
 
+  .right .box {
+      border-bottom: 1px white;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+  .right .box img.desktop {
+      display: none;
+    }
+
+  .right .box.grey img.desktop {
+      display: none;
+    }
+
+  .right .box .text {
+      display: block;
+      padding: 0rem;
+      width: 100%;
+      margin-top: 1rem;
+      margin-left: 0;
+  }
+
+  .right .box img.mobile {
+      display: flex;
+      width: 100%;
+    }
+
+  .right .box.grey img.mobile {
+      display: flex;
+      width: 100%;
+    }
+  /* MAIN THREE START */
+  .flex-container {
+    padding-bottom: 0;
+  }
+
+  .flex-container .course {
+    display: none;
+  }
+
+  .mobile-list {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding-left: 1rem;
+      padding-right: 1rem;
+   }
+
+  .mobile-list a {
+      background-color: #DCDCDC;
+      color: #383838;
+      text-decoration: none;
+      padding: 16px;
+      margin-bottom: 8px;
+      font-size: 1.4rem;
+   }
+
+   .mobile-list a:hover {
+     background-color: #F1F07C;
+   }
+
+  .grey {
+    background-color: white;
+  }
+
+  /* MAIN THREE END
+  MAIN FOUR START */
+
+  .thesis-flex .right-section {
+    display: none;
+  }
+
+  .thesis-flex .left-section {
+    width: 100%;
+    padding: 0;
+  }
+
+  .thesis-flex .left-section p {
+    display: none;
+  }
+
+  .thesis-flex .left-section h5 {
+    display: none;
+  }
+
+  .container h4 {
+    padding: 0rem 0 2rem 0;
+  }
+
+  footer {
+    margin-top: 1.5rem;
+  }
+
+  #main-three .container .headline h4 {
+    margin: 0;
+  }
 }
