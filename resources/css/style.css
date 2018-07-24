@@ -419,7 +419,7 @@ footer .nav {
   }
 }
 @media only screen and (min-width: 481px) {
-  #main-two .right .box img.mobile {
+    #main-two .right .box img.mobile {
     display: none;
   }
 }
@@ -427,7 +427,7 @@ footer .nav {
 @media only screen and (max-width: 480px) {
 
   /* HEADER START */
-  nav.desktop {
+    nav.desktop {
     display: none;
   }
 
@@ -460,42 +460,42 @@ footer .nav {
   }
 
   .right .box.grey {
-      background-color: white;
-      align-items: flex-start;
-      flex-wrap: wrap;
-    }
+    background-color: white;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 
   .right .box {
-      border-bottom: 1px white;
-      align-items: flex-start;
-      flex-wrap: wrap;
-    }
+    border-bottom: 1px white;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 
   .right .box img.desktop {
-      display: none;
-    }
+    display: none;
+  }
 
   .right .box.grey img.desktop {
-      display: none;
-    }
+    display: none;
+  }
 
   .right .box .text {
-      display: block;
-      padding: 0rem;
-      width: 100%;
-      margin-top: 1rem;
-      margin-left: 0;
+    display: block;
+    padding: 0rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0;
   }
 
   .right .box img.mobile {
-      display: flex;
-      width: 100%;
-    }
+    display: flex;
+    width: 100%;
+  }
 
   .right .box.grey img.mobile {
-      display: flex;
-      width: 100%;
-    }
+    display: flex;
+    width: 100%;
+  }
   /* MAIN THREE START */
   .flex-container {
     padding-bottom: 0;
@@ -506,20 +506,20 @@ footer .nav {
   }
 
   .mobile-list {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      padding-left: 1rem;
-      padding-right: 1rem;
-   }
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
   .mobile-list a {
-      background-color: #DCDCDC;
-      color: #383838;
-      text-decoration: none;
-      padding: 16px;
-      margin-bottom: 8px;
-      font-size: 1.4rem;
+    background-color: #DCDCDC;
+    color: #383838;
+    text-decoration: none;
+    padding: 16px;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
    }
 
    .mobile-list a:hover {
