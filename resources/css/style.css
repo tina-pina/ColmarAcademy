@@ -418,7 +418,12 @@ footer .nav {
     padding-left: 0;
     align-items: center;
   }
+
+  #main-two .sub-title {
+    padding: 0 0 0 1rem;
+  }
 }
+
 @media only screen and (min-width: 481px) {
     #main-two .right .box img.mobile {
     display: none;
@@ -484,8 +489,7 @@ footer .nav {
     display: block;
     padding: 0rem;
     width: 100%;
-    margin-top: 1rem;
-    margin-left: 0;
+    margin: 1rem 0 0 0;
   }
 
   .right .box img.mobile {
@@ -527,9 +531,9 @@ footer .nav {
      background-color: #F1F07C;
    }
 
-  .grey {
-    background-color: white;
-  }
+   #main-three {
+     background-color: white;
+   }
 
   /* MAIN THREE END
   MAIN FOUR START */
