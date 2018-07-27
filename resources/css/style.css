@@ -315,13 +315,7 @@ nav.mobile {
   text-align: left;
 }
 
-#main-four .thesis-flex .right-section .first_box {
-  display: flex;
-  align-items: flex-end;
-  padding: 1rem 0 1rem 1rem;
-}
-
-#main-four .thesis-flex .right-section .second_box {
+#main-four .thesis-flex .right-section .first-box {
   display: flex;
   align-items: flex-end;
   padding: 1rem 0 1rem 1rem;
@@ -331,7 +325,7 @@ nav.mobile {
   width: 35%;
 }
 
-#main-four .first_box .content {
+#main-four .first-box .content {
   margin: auto 0 auto 1rem;
   display:flex;
   flex-direction: column;
@@ -342,12 +336,12 @@ nav.mobile {
   margin-top: 2rem;
 }
 
-.right-section .first_box h6 {
+.right-section .first-box h6 {
   font-size: 1.10rem;
   text-align: left;
 }
 
-.right-section .first_box p {
+.right-section .first-box p {
   font-size: 0.8rem;
   line-height: 1.1rem;
   padding-top: 1rem;
